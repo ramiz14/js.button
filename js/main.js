@@ -4,7 +4,7 @@ var checkN=false;
 var ed;
 btn.onmouseenter=function run () {
     var inp = document.getElementById('inp').value
-    ed=Math.floor(Math.random()*1900)
+    ed=Math.floor(Math.random()*1850)
     if (inp.length>=8) {
         for (let i = 0; i < inp.length; i++) {
             if (inp[i].toUpperCase()===inp[i]) {
